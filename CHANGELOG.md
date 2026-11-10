@@ -25,3 +25,6 @@ All notable changes to the Allifly 3D Space Explorer project.
 
 ## Mobile & PWA
 - Touch controls and installable progressive web app
+
+## Desktop
+- Electron wrapper for standalone desktop builds
