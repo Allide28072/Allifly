@@ -22,3 +22,6 @@ All notable changes to the Allifly 3D Space Explorer project.
 
 ## UI & HUD
 - Heads-up display, galaxy map and modal interfaces
+
+## Mobile & PWA
+- Touch controls and installable progressive web app
