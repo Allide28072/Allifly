@@ -13,3 +13,6 @@ All notable changes to the Allifly 3D Space Explorer project.
 
 ## Ships & Hangar
 - Multiple spacecraft with upgradeable subsystems
+
+## Missions
+- Galactic mission system with rewards and progression
