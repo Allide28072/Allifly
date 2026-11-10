@@ -1,0 +1,62 @@
+/**
+ * ALLIFLY 3D Space Explorer - Spaceship Specifications & Registry
+ */
+
+import { ShipStats } from '../types/game';
+
+export const INITIAL_SHIPS: ShipStats[] = [
+  {
+    id: 'starwing',
+    name: 'Allifly Starwing',
+    designation: 'AF-01 Explorer Flagship',
+    description: 'The iconic deep-space exploration vessel engineered for high endurance, precision maneuvering, and planetary entry.',
+    unlocked: true,
+    price: 0,
+    baseMaxSpeed: 85,
+    baseAcceleration: 45,
+    baseManeuverability: 1.4,
+    baseEnergyCapacity: 100,
+    baseEnergyRecharge: 4.5,
+    baseShieldStrength: 100,
+    baseScannerRange: 280,
+    hullColor: '#1e293b',
+    accentColor: '#0284c7',
+    glowColor: '#38bdf8',
+  },
+  {
+    id: 'phoenix',
+    name: 'Void Phoenix',
+    designation: 'VP-99 Heavy Interceptor',
+    description: 'Built with reinforced titanium plating and high-yield plasma nacelles for extreme resilience in hostile asteroid fields.',
+    unlocked: false,
+    price: 150,
+    baseMaxSpeed: 75,
+    baseAcceleration: 55,
+    baseManeuverability: 1.1,
+    baseEnergyCapacity: 120,
+    baseEnergyRecharge: 5.0,
+    baseShieldStrength: 180,
+    baseScannerRange: 320,
+    hullColor: '#090d16',
+    accentColor: '#7c3aed',
+    glowColor: '#c084fc',
+  },
+  {
+    id: 'cruiser',
+    name: 'Chrono Cruiser',
+    designation: 'CC-Echo Quantum Explorer',
+    description: 'Equipped with a resonant quantum warp ring and dual deep-space sensor arrays for extended interstellar voyages.',
+    unlocked: false,
+    price: 350,
+    baseMaxSpeed: 95,
+    baseAcceleration: 40,
+    baseManeuverability: 1.25,
+    baseEnergyCapacity: 180,
+    baseEnergyRecharge: 7.0,
+    baseShieldStrength: 130,
+    baseScannerRange: 450,
+    hullColor: '#334155',
+    accentColor: '#0ea5e9',
+    glowColor: '#38bdf8',
+  },
+];
