@@ -34,3 +34,6 @@ All notable changes to the Allifly 3D Space Explorer project.
 
 ## Documentation
 - README and technical documentation
+
+## Credits
+- Built by Allide
