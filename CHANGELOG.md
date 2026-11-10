@@ -7,3 +7,6 @@ All notable changes to the Allifly 3D Space Explorer project.
 
 ## Flight & Controls
 - 6DOF flight model with banking roll physics and afterburner
+
+## Worlds
+- Procedural solar sector with explorable planetary surfaces
