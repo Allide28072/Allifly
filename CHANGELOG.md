@@ -10,3 +10,6 @@ All notable changes to the Allifly 3D Space Explorer project.
 
 ## Worlds
 - Procedural solar sector with explorable planetary surfaces
+
+## Ships & Hangar
+- Multiple spacecraft with upgradeable subsystems
