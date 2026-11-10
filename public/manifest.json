@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "Allifly — 3D Space Explorer",
+  "short_name": "Allifly",
+  "description": "3D space exploration game: pilot starships, discover planetary systems, collect crystals, and complete galactic missions.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "theme_color": "#060919",
+  "background_color": "#020409",
+  "categories": ["games", "simulation", "adventure"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
