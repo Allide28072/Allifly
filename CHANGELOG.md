@@ -31,3 +31,6 @@ All notable changes to the Allifly 3D Space Explorer project.
 
 ## Persistence
 - Local save game storage for player progress
+
+## Documentation
+- README and technical documentation
