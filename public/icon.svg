@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="spaceGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#141c3a" />
+      <stop offset="60%" stop-color="#070b1a" />
+      <stop offset="100%" stop-color="#020409" />
+    </radialGradient>
+    <linearGradient id="wingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="fuselageGrad" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#e0f2fe" />
+      <stop offset="30%" stop-color="#38bdf8" />
+      <stop offset="80%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="glowCyan" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="1" />
+      <stop offset="70%" stop-color="#06b6d4" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="plasmaExhaust" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="25%" stop-color="#38bdf8" />
+      <stop offset="70%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0" />
+    </linearGradient>
+    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="512" height="512" rx="108" fill="url(#spaceGrad)" />
+
+  <!-- Outer Orbit Rings -->
+  <circle cx="256" cy="256" r="210" fill="none" stroke="#38bdf8" stroke-opacity="0.15" stroke-width="2" stroke-dasharray="12 16" />
+  <circle cx="256" cy="256" r="160" fill="none" stroke="#818cf8" stroke-opacity="0.2" stroke-width="1.5" />
+
+  <!-- Stars -->
+  <circle cx="100" cy="110" r="2.5" fill="#e0f2fe" opacity="0.8" />
+  <circle cx="410" cy="90" r="3" fill="#38bdf8" opacity="0.9" />
+  <circle cx="440" cy="380" r="2" fill="#c084fc" opacity="0.7" />
+  <circle cx="90" cy="390" r="2.5" fill="#38bdf8" opacity="0.75" />
+  <circle cx="256" cy="70" r="3" fill="#ffffff" filter="url(#neonGlow)" />
+
+  <!-- Engine Exhaust Plumes -->
+  <polygon points="256,360 236,465 256,495 276,465" fill="url(#plasmaExhaust)" filter="url(#neonGlow)" />
+  <polygon points="214,350 200,430 216,420" fill="url(#glowCyan)" opacity="0.8" />
+  <polygon points="298,350 312,430 296,420" fill="url(#glowCyan)" opacity="0.8" />
+
+  <!-- Main Starwing Spaceship Body -->
+  <!-- Left Wing -->
+  <polygon points="256,210 110,340 70,335 150,260 220,180" fill="url(#wingGrad)" stroke="#38bdf8" stroke-width="1.5" />
+  <polygon points="120,336 90,360 70,335" fill="#0284c7" />
+
+  <!-- Right Wing -->
+  <polygon points="256,210 402,340 442,335 362,260 292,180" fill="url(#wingGrad)" stroke="#38bdf8" stroke-width="1.5" />
+  <polygon points="392,336 422,360 442,335" fill="#0284c7" />
+
+  <!-- Center Fuselage -->
+  <polygon points="256,90 286,220 290,345 256,365 222,345 226,220" fill="url(#fuselageGrad)" stroke="#7dd3fc" stroke-width="2" />
+
+  <!-- Cockpit Canopy Glass -->
+  <polygon points="256,130 274,215 256,245 238,215" fill="#0284c7" stroke="#38bdf8" stroke-width="2" filter="url(#neonGlow)" />
+  <line x1="256" y1="135" x2="256" y2="240" stroke="#bae6fd" stroke-width="2" opacity="0.9" />
+
+  <!-- Wing Edge Cyan Light Accents -->
+  <line x1="110" y1="340" x2="256" y2="210" stroke="#38bdf8" stroke-width="3" filter="url(#neonGlow)" />
+  <line x1="402" y1="340" x2="256" y2="210" stroke="#38bdf8" stroke-width="3" filter="url(#neonGlow)" />
+
+  <!-- Thruster Nozzles -->
+  <rect x="242" y="348" width="28" height="15" rx="3" fill="#334155" stroke="#38bdf8" stroke-width="2" />
+  <circle cx="256" cy="358" r="8" fill="#38bdf8" filter="url(#neonGlow)" />
+
+  <!-- Vector Winglets -->
+  <polygon points="70,335 55,290 75,300" fill="#38bdf8" opacity="0.9" />
+  <polygon points="442,335 457,290 437,300" fill="#38bdf8" opacity="0.9" />
+</svg>
