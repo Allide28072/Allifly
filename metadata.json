@@ -1,0 +1,6 @@
+{
+  "name": "Allifly — 3D Space Explorer",
+  "description": "Pilot the Allifly Starwing, explore deep space, discover alien planets, collect quantum energy crystals, and complete epic planetary missions in this full 3D space adventure.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
