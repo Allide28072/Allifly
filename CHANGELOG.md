@@ -16,3 +16,6 @@ All notable changes to the Allifly 3D Space Explorer project.
 
 ## Missions
 - Galactic mission system with rewards and progression
+
+## Audio
+- Procedural sound engine built on the Web Audio API
