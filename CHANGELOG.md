@@ -19,3 +19,6 @@ All notable changes to the Allifly 3D Space Explorer project.
 
 ## Audio
 - Procedural sound engine built on the Web Audio API
+
+## UI & HUD
+- Heads-up display, galaxy map and modal interfaces
