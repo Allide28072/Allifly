@@ -28,3 +28,6 @@ All notable changes to the Allifly 3D Space Explorer project.
 
 ## Desktop
 - Electron wrapper for standalone desktop builds
+
+## Persistence
+- Local save game storage for player progress
